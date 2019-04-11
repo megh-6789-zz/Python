@@ -11,3 +11,4 @@ def user():
    sudo('useradd megh')
    sudo('passwd megh')
    sudo('echo "megh ALL=(ALL) ALL" >> /etc/sudoers')
+   sudo('echo "hi"')
